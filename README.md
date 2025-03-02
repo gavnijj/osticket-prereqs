@@ -31,26 +31,46 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src=![Screen Shot 2025-02-11 at 3 29 21 PM](https://github.com/user-attachments/assets/dfb1ae9c-bf29-4515-a5d9-a485d4ee59f8)
- height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6ppktNF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This is the first window that pops up once osTicket has been installed and you attempt to load it through IIS. PHP manager should be installed into the PHP folder in the C:\ directory. The upload folder from the osTicket zip file should be copied into c:\inetpub\wwwroot directory and the file should be renamed to osTicket  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9SICaO9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Going into PHP Manager from IIS allows you to enable the extensions in osTicket that were disabled initially once osTicket was launched. php_imap.dll extension allows for sending/fetching emails, managing mailboxes, and handling attachments. The php_intl.dll extension enables internationalization support. This provides functions for handling localized formatting, text processing, collation, etc. The php.opcache.dll extension improves PHP performance by caching precompiled script bytecode in memory.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/mvbHcW3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You can name the help desk on this page and create the first admin user for the help desk. To complete the Database Settings section you have to log into your database application and then create another database specific to osTicket and then provide the credentials for the Database Settings section.
+</p>
+
+<p>
+<img src="https://i.imgur.com/4onYKlv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Use HeidiSQL to make a connection to the MySQL database to configure stuff in there. A database is created called osTicket inside of osTicket and the actual installation that is happening inside of the browser is going to make use of the database and put stuff in there.
+</p>
+
+<p>
+<img src="https://i.imgur.com/r4IV4ek.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket has been installed and it provides URLs to log in as a admin and to log in as a user, if you want to submit a ticket. 
+</p>
+
+<p>
+<img src="https://i.imgur.com/5vUSsXc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket admin user login page.
 </p>
 <br />
