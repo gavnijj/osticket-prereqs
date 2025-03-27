@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/6ppktNF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This is the first window that pops up once osTicket has been installed and you attempt to load it through IIS. PHP manager should be installed into the PHP folder in the C:\ directory. The upload folder from the osTicket zip file should be copied into c:\inetpub\wwwroot directory and the file should be renamed to osTicket  
+This is the first window that pops up once osTicket has been installed and you attempt to load it through IIS(Internet Information Services). PHP manager should be installed into the PHP folder in the C:\ directory. The upload folder from the osTicket zip file should be copied into the c:\inetpub\wwwroot directory and the file should be renamed to osTicket  
 </p>
 <br />
 
